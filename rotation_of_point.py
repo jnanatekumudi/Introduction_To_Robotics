@@ -18,7 +18,8 @@ def get_point():
                 print("Invalid input")
                 break
         else:
-            return coords[:3]
+            break
+    return coords[:3]
 
 
 def get_rotation():
